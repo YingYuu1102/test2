@@ -4,13 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ảnh đẹp</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      a {
+        font-style: italic;
+        font-family: "Courier New", Courier, monospace;
+        color: aqua;
+        transition: 5s;
+      }
+      input:checked ~ a {
+        opacity: 0%;
+        visibility: hidden;
+      }
+    </style>
   </head>
   <body>
     <a href="../index.html">Home</a>
-    <a href="../about.html">About</a><a href="../contact.html">Contact</a><br />
+    <a href="../about.html">About</a> <a href="../contact.html">Contact</a
+    ><br />
     <h1>Bộ sưu tập ảnh tiểu vũ</h1>
+    <input type="checkbox" />click vào đây để ẩn hình <br />
     <a href="../contact.html"
-      ><img src="./photo_2024-02-17_03-06-35.jpg" alt="tiểu vũ" width="120"
-    /></a>
+      ><img
+        src="./photo_2024-02-17_03-06-35.jpg"
+        alt="tiểu vũ"
+        width="220" /></a
+    ><br />
+    <p>
+      <i style="color: blue">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, iusto
+        tempore, ut maiores est, enim sapiente placeat eos distinctio pariatur
+        modi! Quis fuga soluta odit consectetur atque rem reiciendis numquam?
+      </i>
+    </p>
   </body>
 </html>
